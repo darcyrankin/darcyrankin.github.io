@@ -45,26 +45,21 @@ a:hover{
     width: 40vw;
     margin-top: 15vh;
     color: white;
-    animation: fly 20s  infinite;
+    animation: fly 2s  infinite;
     animation-fill-mode: forwards;
     transform: scaleX(1.5);
                 }
 
     @keyframes fly{
                   0% {
-                    opacity: 0;
-                    transform scaleX(2);
-
-                    transition-timing-function: ease;
+                    transform: scaleX(2);
                   }
                   50% {
-                    opacity: 1;
-                    transform scaleX(.5);
+                    transform: scaleX(.5);
 
                   }
                 100% {
-                    opacity: 0;
-                    transform scaleX(2)
+                    transform: scaleX(2)
                   }
                 }
 

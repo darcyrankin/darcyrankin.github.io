@@ -45,7 +45,7 @@ a:hover{
     width: 40vw;
     margin-top: 15vh;
     color: white;
-    animation: fly 30s  infinite;
+    animation: fly 20s  infinite;
     animation-fill-mode: forwards;
     transform: scaleX(1.5);
                 }
@@ -53,23 +53,25 @@ a:hover{
     @keyframes fly{
                   0% {
                     opacity: 0;
-                    transition-property: opacity;
+                    transform scaleX(2);
+
                     transition-timing-function: ease;
                   }
                   50% {
                     opacity: 1;
-                    transition-property: opacity, color;
+                    transform scaleX(.5);
+
                   }
                 100% {
                     opacity: 0;
-                    transition-property: opacity, color;
-}
+                    transform scaleX(2)
+                  }
                 }
 
         </style>
 
-    </head>
-    <body>
+</head>
+<body>
 
 <div class="menu">
 <pre>

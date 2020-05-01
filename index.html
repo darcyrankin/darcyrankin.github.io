@@ -40,14 +40,21 @@ a:hover{
             }
 
 .fly{
+    position: absolute;
     font-size:.5vw;
-    margin-left: 30vw;
+    margin-left: 60vw;
     width: 40vw;
     margin-top: 15vh;
     color: white;
     animation: fly 20s  infinite;
     animation-fill-mode: forwards;
-    transform-origin: 70% 70%;
+    transform-origin: 13vw% ;
+    }
+
+  @media only screen and (max-width: 600px) {
+      .fly {
+        position: relative
+      }
     }
 
     @keyframes fly{
@@ -78,6 +85,7 @@ Darcy Rankin
 <i>Selected Works</i>
 
 2020 - Water Vapour in the Climate Emergency Report
+2020 - <a href="https://www.kerb-journal.com">Jacob Rish Online</a>
 2020 - <a href="https://www.kerb-journal.com">Editor, Kerb Journal of Landscape Architecture</a>
 2020 - <a href="https://trashdioreco.neocities.org">trashdioreco</a>
 2020 - <a href="/jantra.html">Jantra</a>
